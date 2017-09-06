@@ -26,6 +26,7 @@
   padding: 0 20px;
 }
 .thumb-article{
+  display: block;
   margin-bottom: 30px;
 }
 .thumb-headerimg{
@@ -35,4 +36,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.thumb-textcontainer p{
+  color: black;
 }
