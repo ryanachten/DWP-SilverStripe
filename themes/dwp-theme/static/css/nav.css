@@ -23,8 +23,10 @@
 }
 
 /*Custom topnav styles*/
-.top-bar.expanded input.topnav-search{
-  vertical-align: middle;
+#topnav-profile, img.topnav-search{
+  width: 35px;
+  height: 35px;
+  margin-top: 5px;
 }
 input.topnav-search{
   display: inline-block;
@@ -32,7 +34,10 @@ input.topnav-search{
   width: 70%;
   height: 100%;
 }
-#topnav-profile, .topnav-search{
-  width: 40px;
-  height: 40px;
+.top-bar.expanded input.topnav-search{
+  vertical-align: middle;
+}
+.top-bar.expanded img.topnav-search,
+.top-bar.expanded #topnav-profile{
+  margin-top: 0;
 }
