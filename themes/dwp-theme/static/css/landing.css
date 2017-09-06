@@ -1,16 +1,10 @@
-
-.topnav-icon{
-  width: 40px;
-  height: 40px;
-}
-
 .latest-article{
-  /*width: 100%;*/
   height: 450px;
   background-image: url("http://via.placeholder.com/940x440");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0 20px;
   margin-bottom: 30px;
 }
 .latest-textcontainer{
@@ -32,9 +26,8 @@
   padding: 0 20px;
 }
 .thumb-article{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-
 .thumb-headerimg{
   width: 100%;
   height: 200px;
@@ -43,10 +36,3 @@
   background-size: cover;
   background-position: center;
 }
-/*.thumb-textcontainer{
-    padding: 20px;
-}
-.thumb-description{
-  max-height: 100px;
-  overflow-y: hidden;
-}*/

@@ -1,11 +1,8 @@
 /*Top bar style overrides*/
-.topnav-icon{
-  width: 40px;
-  height: 40px;
-}
 .top-bar{
   background: white;
   padding: 0 20px;
+  margin: 10px 0;
 }
 .top-bar.expanded .title-area {
     background: white;
@@ -23,4 +20,19 @@
 }
 .top-bar .toggle-topbar.menu-icon a span::after{
       box-shadow: 0 0 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;
+}
+
+/*Custom topnav styles*/
+.top-bar.expanded input.topnav-search{
+  vertical-align: middle;
+}
+input.topnav-search{
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  height: 100%;
+}
+#topnav-profile, .topnav-search{
+  width: 40px;
+  height: 40px;
 }
