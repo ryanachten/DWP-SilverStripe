@@ -1,0 +1,26 @@
+/*Top bar style overrides*/
+.topnav-icon{
+  width: 40px;
+  height: 40px;
+}
+.top-bar{
+  background: white;
+  padding: 0 20px;
+}
+.top-bar.expanded .title-area {
+    background: white;
+}
+
+.top-bar-section ul li {
+    background: white;
+}
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a{
+  color: black;
+}
+
+.top-bar .toggle-topbar.menu-icon a{
+  color: black;
+}
+.top-bar .toggle-topbar.menu-icon a span::after{
+      box-shadow: 0 0 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;
+}
