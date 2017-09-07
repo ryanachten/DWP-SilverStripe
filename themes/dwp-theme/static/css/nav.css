@@ -22,11 +22,38 @@
       box-shadow: 0 0 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;
 }
 
+.top-bar-section li:not(.has-form) a:not(.button){
+  color: black;
+  background: transparent;
+}
+
+.top-bar-section .has-dropdown > a:after{
+  border-color: rgba(0, 0, 0, 0.4) transparent transparent transparent;
+}
+
+.top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
+  color: black;
+}
+
+.top-bar-section ul li:hover:not(.has-form) > a{
+  color: black;
+  background-color: white;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+  background-color: white;
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button){
+  color: black;
+  background-color: white;
+}
+
 /*Custom topnav styles*/
 #topnav-profile, img.topnav-search{
-  width: 35px;
-  height: 35px;
-  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
 }
 input.topnav-search{
   display: inline-block;
