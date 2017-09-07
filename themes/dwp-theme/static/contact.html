@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWP Contact</title>
+
+    <link rel="stylesheet" href="http://cdn.foundation5.zurb.com/foundation.css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
+
+    <!-- Custom styles / src -->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+
+  <body>
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="projects.html">orwell</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+
+          <li><div>
+            <img class="topnav-search" src="img/foundation_icons/fi-magnifying-glass.svg" alt="" >
+              <input class="topnav-search" type="search" placeholder="Search">
+          </div></li>
+
+          <li><img id="topnav-profile" src="img/foundation_icons/fi-torso.svg" alt="" ></li>
+
+        </ul>
+
+        <ul class="left">
+          <li class="has-dropdown">
+            <a href="#">Menu</a>
+            <ul class="dropdown">
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </nav>
+
+    <main id="contact-container">
+      <h1>Contact</h1>
+      <h3 class="subheader">Got questions? Feedback? Comments?</h3>
+      <p>Contact us using the form below:</p>
+      <form class='form'>
+        <div class='row'>
+          <div class='large-6 columns'>
+            <label>Email
+              <input type="email" placeholder="Enter email..." />
+            </label>
+          </div>
+          <div class='large-6 columns'>
+            <label>Subject
+              <input type="text" placeholder="Subject of email..." />
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+            <label>Message
+              <textarea rows='7' placeholder="Enter message"></textarea>
+            </label>
+          </div>
+        </div>
+        <div class='row submit'>
+          <button type="submit" form="form" value="Submit">Submit</button>
+        </div>
+      </form>
+    </main>
+
+    <!-- Required for the hamburger menu to expand -->
+    <script type="text/javascript">
+      $(document).foundation();
+    </script>
+  </body>
+</html>
