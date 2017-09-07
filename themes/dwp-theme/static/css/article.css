@@ -36,11 +36,13 @@
 }
 #article-headerquote{
   text-align: left;
-  margin: 0 100px;
+  margin: 0 auto;
+  width: 70%;
 }
 #article-body{
   text-align: left;
-  margin: 0 80px;
+  margin: 0 auto;
+  width: 80%;
 }
 .article-sectionbreak{
   width: 80%;
