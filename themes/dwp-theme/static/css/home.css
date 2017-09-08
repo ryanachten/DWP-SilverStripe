@@ -29,6 +29,13 @@
   overflow-y: hidden;
 }
 
+.thumb-header{
+  margin-left: 20px;
+}
+.thumb-sectionbreak{
+  margin-bottom: 30px;
+}
+
 #thumb-container{
   padding: 0 20px;
   max-width: 1500px;
