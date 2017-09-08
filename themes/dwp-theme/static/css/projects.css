@@ -1,6 +1,12 @@
+header{
+    margin-top: 30px;
+}
 #project-filtercontainer{
   width: 80%;
   margin: 0 auto;
+}
+.filter-label{
+  text-align: center;
 }
 
 .project-sectionbreak{
