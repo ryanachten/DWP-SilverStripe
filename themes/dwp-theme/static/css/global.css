@@ -1,1 +1,11 @@
 /*Gloabl styles consistent across all public facing pages*/
+h1, h2, h3{
+  font-family: 'Droid Serif', serif;
+}
+h5{
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}

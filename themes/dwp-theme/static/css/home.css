@@ -7,7 +7,7 @@
   background-size: cover;
   background-position: 50% 50%;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   border-radius: 10px;
 }
 .latest-textcontainer{
@@ -19,20 +19,24 @@
   padding: 20px;
   overflow-y: hidden;
   background-color: white;
+  color: black;
+  border-radius: 10px;
 }
-.latest-textcontainer{
-    color: black;
-    border-radius: 10px;
+.latest-date, .thumb-date{
+  font-size: 0.8rem;
 }
 .latest-description{
   height: 50px;
   overflow-y: hidden;
 }
 
-.thumb-header{
+.thumb-sectionheader{
   margin-left: 20px;
+  text-align: center;
 }
 .thumb-sectionbreak{
+  width: 90%;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -53,6 +57,10 @@
   background-size: cover;
   background-position: center;
   border-radius: 10px;
+  margin-bottom: 15px;
+}
+.thumb-textcontainer{
+  padding: 10px;
 }
 .thumb-textcontainer p{
   color: black;
