@@ -1,46 +1,49 @@
-.latest-article{
-  display: block;
-  height: 450px;
-  background-image: url("http://via.placeholder.com/940x440");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: 0 20px;
-  margin-bottom: 30px;
+header{
+    margin-top: 30px;
 }
-.latest-textcontainer{
-  display: inline-block;
-  max-width: 600px;
-  height: 300px;
-  margin: 50px;
-  margin-top: 100px;
-  padding: 20px;
-  overflow-y: hidden;
-  background-color: white;
+#project-filtercontainer{
+  width: 80%;
+  margin: 0 auto;
 }
-.latest-textcontainer{
-    color: black; 
+.filter-label{
+  text-align: center;
 }
-.latest-description{
-  height: 50px;
-  overflow-y: hidden;
+
+.project-sectionbreak{
+  width: 80%;
+  margin: 30px auto;
 }
 
 #thumb-container{
-  padding: 0 20px;
+  width: 80%;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 .thumb-article{
   display: block;
   margin-bottom: 30px;
+  text-align: center;
 }
 .thumb-headerimg{
   width: 100%;
   height: 200px;
-  background-image: url("http://via.placeholder.com/226x160");
+  background-image: url("../img/temp_thumbnails/Galaxy_1952_06_0000.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.thumb-textcontainer{
+  width: 90%;
+  margin: 0 auto;
 }
 .thumb-textcontainer p{
   color: black;
+}
+.thumb-date{
+  font-size: 0.8rem;
+}
+.thumb-description{
+  text-align: left;
 }

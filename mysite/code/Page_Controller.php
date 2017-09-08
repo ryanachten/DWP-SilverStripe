@@ -27,6 +27,7 @@ class Page_Controller extends ContentController
         // See: http://doc.silverstripe.org/framework/en/reference/requirements
 
         Requirements::css("http://cdn.foundation5.zurb.com/foundation.css");
+        Requirements::css("https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Roboto:400,400i,700,700i");
         Requirements::javascript("https://code.jquery.com/jquery-2.2.4.min.js");
         Requirements::javascript("https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js");
         Requirements::javascript("http://cdn.foundation5.zurb.com/foundation.js");
