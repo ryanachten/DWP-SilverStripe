@@ -2,10 +2,10 @@
 h1, h2, h3{
   font-family: 'Droid Serif', serif;
 }
-h5{
+h4, h5{
   font-family: 'Droid Serif', serif;
   font-style: italic;
 }
-p{
+p, blockquote{
   font-family: 'Roboto', sans-serif;
 }

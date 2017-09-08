@@ -32,6 +32,7 @@ header{
   background-size: cover;
   background-position: center;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 .thumb-textcontainer{
   width: 90%;
@@ -39,6 +40,9 @@ header{
 }
 .thumb-textcontainer p{
   color: black;
+}
+.thumb-date{
+  font-size: 0.8rem;
 }
 .thumb-description{
   text-align: left;

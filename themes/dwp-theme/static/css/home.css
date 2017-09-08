@@ -61,6 +61,10 @@
 }
 .thumb-textcontainer{
   padding: 10px;
+  text-align: center;
+}
+.thumb-description{
+  text-align: left;
 }
 .thumb-textcontainer p{
   color: black;
