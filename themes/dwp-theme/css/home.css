@@ -52,7 +52,7 @@
 .thumb-headerimg{
   width: 100%;
   height: 200px;
-  background-image: url("../img/temp_thumbnails/Galaxy_1952_02_0000.jpg");
+  /*background-image: url("../img/temp_thumbnails/Galaxy_1952_02_0000.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
