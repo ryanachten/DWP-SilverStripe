@@ -2,6 +2,8 @@
 
   class ArticleHolder extends Page{
 
+    // Only allow article pages to be created within the article page holder
+    // TODO: expand this with other types of articles
     private static $allowed_children = array(
       'ArticlePage'
     );

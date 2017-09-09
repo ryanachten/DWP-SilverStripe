@@ -1,7 +1,6 @@
 <%-- DESCRIPTION: Holder page for housing a list
 of all *published* articles in the system --%>
 <%-- structure based on static/projects.html --%>
-<%-- TODO: add <link rel="stylesheet" href="css/projects.css"> to controller --%>
 
 <header>
   <!-- Filter form -->
@@ -58,11 +57,16 @@ of all *published* articles in the system --%>
     <div class="thumb-headerimg"></div>
     <div class="thumb-textcontainer">
       <h3>$Title</h3>
-      <p class="thumb-author">Lester del Ray</p>
-      <p class="thumb-date">15 March</p>
-      <p class="thumb-description">Nick Denton if the news is that important, it'll find me we will make them pay Andy Carvin circulation Project Thunderdome DocumentCloud Gutenberg parenthesis, Politics &amp; Socks page masthead future of context cancel</p>
+      <p class="thumb-author">$Author</p>
+      <p class="thumb-date">$Date.Long</p>
+      <p class="thumb-description">
+        <% if $Teaser %>
+          $Teaser
+        <% else %>
+          $Content.FirstSentence
+        <% end_if %></p>
     </div>
   </a>
   <% end_loop %>
-  
+
 </main>

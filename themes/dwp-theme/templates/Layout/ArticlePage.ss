@@ -9,13 +9,17 @@
   <div id="article-info">
     <div id="article-progileimg"></div>
     <div id="article-infocontainer">
-      <h4 class="subheader">Lester del Rey</h4>
-      <p>15 March</p>
+      <h4 class="subheader">$Author</h4>
+      <p>$Date.Long</p>
     </div>
   </div>
   <article class="article-content">
     <blockquote id="article-headerquote">
-      Nick Denton if the news is that important, it'll find me we will make them pay Andy Carvin circulation Project Thunderdome DocumentCloud Gutenberg parenthesis, Politics & Socks page masthead future of context cancel my subscription nonprofit meme paywall but what's the business model, What Would Google Do social media optimization AOL Fuego Facebook plagiarism circulation. The Daily process vs. product linkbait Jay Rosen RT metered model Tumblr Frontline Wikipedia newspaper strike gotta grok it before you rock it A.J. Liebling tools
+      <% if $Teaser %>
+        $Teaser
+      <% else %>
+        $Content.FirstSentence
+      <% end_if %>
     </blockquote>
     <hr class="article-sectionbreak">
     <p id="article-body">
