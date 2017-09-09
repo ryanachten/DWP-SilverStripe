@@ -9,6 +9,11 @@
       'Author' => 'Varchar'
     );
 
+    // Singular article attributes
+    private static $has_one = array(
+      'HeaderImage' => 'Image'
+    );
+
     // Prevent an article page from being created outside of the article page holder
     private static $can_be_root = false;
 
@@ -23,6 +28,11 @@
       $fields->addFieldToTab('Root.Main', TextareaField::create('Teaser'), Content);
       // FIXME: need to be able to assign multiple authors to a single article
       $fields->addFieldToTab('Root.Main', TextField::create('Author', 'Author of article'), Content);
+
+      // Upload media fields
+      // FIXME: see if this can be attached to .Main so that the header image is an obvious requirement
+      $fields->addFieldToTab('Root.Attachments', $header_image = UploadField::create('HeaderImage', 'Header Image'));
+      $header_image->setFolderName('article-assets/article-headerimages');
 
       return $fields;
     }

@@ -54,7 +54,7 @@ of all *published* articles in the system --%>
   <%-- Loop through all of the articles added as a child to ArticleHolder --%>
   <% loop $Children %>
   <a class="thumb-article medium-6 large-4 columns" href="$Link">
-    <div class="thumb-headerimg"></div>
+    <div class="thumb-headerimg" style="background-image:url('$HeaderImage.URL')"></div>
     <div class="thumb-textcontainer">
       <h3>$Title</h3>
       <p class="thumb-author">$Author</p>

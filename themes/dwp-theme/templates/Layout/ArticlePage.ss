@@ -2,7 +2,7 @@
  will contain publshed written content from user--%>
 <%-- structure based on static/article.html --%>
 
-<div id="article-headerimage"></div>
+<div id="article-headerimage" style="background-image:url('$HeaderImage.URL')"></div>
 
 <main id="article-container">
   <h1>$Title</h1>
