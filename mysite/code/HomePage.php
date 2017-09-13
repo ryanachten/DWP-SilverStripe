@@ -11,7 +11,7 @@
     }
 
     // Get latest articles to be pulled into the template
-    // TODO: change to categories as per template once they have been confirmed
+    // TODO: add categories as per template once they have been confirmed
     public function LatestArticles($count = 2){
       return ArticlePage::get()
         ->sort('Created', 'DESC')

@@ -23,7 +23,7 @@
       <hr class="thumb-sectionbreak">
 
       <%-- Pull latest articles via HomePage_Controller --%>
-      <%-- TODO: change to Category 1 --%>
+      <%-- FIXME: change to Category 1 --%>
       <% loop $LatestArticles(2) %>
         <a class="thumb-article medium-12 large-6 columns" href="$Link">
           <div class="thumb-headerimg"
@@ -49,7 +49,7 @@
       <hr class="thumb-sectionbreak">
 
       <%-- Pull latest articles via HomePage_Controller --%>
-      <%-- TODO: change to Category 2 --%>
+      <%-- FIXME: change to Category 2 --%>
       <% loop $LatestArticles(2) %>
         <a class="thumb-article medium-12 large-6 columns" href="$Link">
           <div class="thumb-headerimg"
